@@ -1,0 +1,19 @@
+.filters-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 330px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.btn {
+    width: 100px;
+    border:1px solid black;
+    padding: 10px 10px;
+    border-radius:10px;
+
+    &:hover {
+        background-color: #BCE4E3;
+        cursor: pointer;
+    }
+}

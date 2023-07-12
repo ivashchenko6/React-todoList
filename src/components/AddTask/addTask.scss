@@ -1,0 +1,26 @@
+.controls {
+    margin: 0 auto;
+    width: 270px;
+}
+
+.controls-add-input {
+    height: 30px;
+    width: 220px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.add-btn {
+    border-radius: 100%;
+    margin-left: 10px;
+    border: none;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    &:hover {
+        background-color:aquamarine;
+    }
+}
